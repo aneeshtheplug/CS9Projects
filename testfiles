@@ -1,0 +1,21 @@
+from AnimalShelter import AnimalShelter
+from Animal import Animal
+
+a = Animal("Tiger", '145', '15', 'Joe')
+b = Animal("Tiger", '145', '15', 'Joe')
+shelter = AnimalShelter()
+shelter.addAnimal(a)
+shelter.addAnimal(b)
+shelter.removeSpecies('tiGeR') 
+
+'''for key in self.dict:
+            if key == animal.species:
+                for val in self.dict[key]:
+                    if val.weight == animal.weight:
+                        if val.age == animal.age:
+                            if val.name == animal.name:
+                                return True
+                        return False
+                    return True
+            else:
+                return False   '''

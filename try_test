@@ -1,0 +1,14 @@
+while True:
+    try:
+        user_input = int(input("Enter a positive number"))
+        new_dk = 100 / user_input
+        print("The output of the input is", new_dk)
+    except ZeroDivisionError:
+        print("Divider was not a positive number")
+    except:
+        print("Please enter a number for")
+
+
+
+
+
